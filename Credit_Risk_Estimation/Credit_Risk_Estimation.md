@@ -24,8 +24,7 @@ from catboost import CatBoostClassifier   # Boosting
 
 
 ```python
-data = pd.read_csv('DataSceinceSeries.csv')
-# Spelling of science was wrong in the sheet by the recruiter
+data = pd.read_excel('/content/Data Sceince Series A II.xlsx',sheet_name='Data Sceince Series A II')
 ```
 
 
