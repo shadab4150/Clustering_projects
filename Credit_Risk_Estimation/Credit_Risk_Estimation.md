@@ -1379,7 +1379,7 @@ plt.xticks(np.arange(len(f)),X_train[cols[:]].columns.tolist(),rotation=90);
 cm = pd.crosstab(y_test[tar].values, y_pred, rownames=['Actual'], colnames=['Predicted'])
 print(cm)
 fig, (ax1) = plt.subplots(ncols=1, figsize=(6,5))
-sns.heatmap(cm, 
+sns.heatmap(cm/50, 
             xticklabels=['Not Fraud', 'Fraud'],
             yticklabels=['Not Fraud', 'Fraud'],
             annot=True,ax=ax1,
