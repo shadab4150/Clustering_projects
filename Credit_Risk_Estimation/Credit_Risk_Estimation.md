@@ -1643,7 +1643,6 @@ We investigated the data, checking for data unbalancing, visualizing the feature
 * Next We followed with an **CatBoostClassifier** model, with improved AUC score (**0.78**) over mean of 5 folds.   
 * Then we experimented with a **Neural Network** model, for which the AUC score obtained was **0.81** which was the best so far.   
 * We used both **train-validation split** and **cross-validation** to evaluate the model effectiveness to predict the target value.
-* We also used AUTOML tools like **pycaret** to compare various model to see which performs best.
 
 
 ```python
